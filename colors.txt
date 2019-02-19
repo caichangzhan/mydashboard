@@ -1,0 +1,5 @@
+graycolor#FCFDFF
+deepcolor#2A2C44
+drakcolor#35395C
+lightcolor#3D4368
+whitecolor#FFFFFF

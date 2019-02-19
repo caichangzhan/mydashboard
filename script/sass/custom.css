@@ -1,0 +1,115 @@
+body {
+  background-color: #FCFDFF;
+  margin-left: 200px;
+  padding: 0;
+  margin-top: 0;
+  margin-right: 0; }
+
+#barmodel, #navbar, #slidebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0; }
+  #barmodel .iconcolor i, #navbar .iconcolor i, #slidebar .iconcolor i, #slidebar li a:hover i, #slidebar .bottom:hover i {
+    color: #0bb8fa; }
+  #barmodel .iconmargin i, #navbar .iconmargin i, #slidebar .iconmargin i, #barmodel #slidebar li a i, #slidebar li #barmodel a i, #navbar #slidebar li a i, #slidebar li #navbar a i, #slidebar li a i, #slidebar .bottom i {
+    margin-right: 16px; }
+
+#navbar {
+  background-color: #FCFDFF;
+  position: relative;
+  width: 100%;
+  height: 96px; }
+  #navbar i, #navbar img {
+    padding: 24px 16px;
+    float: right; }
+
+#slidebar {
+  width: 200px;
+  background-color: #35395C;
+  height: 100%; }
+  #slidebar span img {
+    width: 160px;
+    padding: 16px; }
+  #slidebar li a {
+    display: block;
+    color: #FFFFFF;
+    margin-left: 8px;
+    padding: 8px 16px;
+    text-decoration: none; }
+    #slidebar li a.active, #slidebar li a:hover {
+      background-color: #2A2C44;
+      color: #FFFFFF;
+      border-radius: 40px 0 0 40px; }
+  #slidebar .bottom {
+    color: #FFFFFF;
+    margin: 24px;
+    padding: 8px 16px;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    overflow: auto; }
+    #slidebar .bottom:hover {
+      background-color: #2A2C44;
+      color: #FFFFFF;
+      border-radius: 40px; }
+  #slidebar h1, #slidebar h2, #slidebar h3, #slidebar h4 {
+    margin-left: 8px;
+    padding: 8px;
+    color: #FFFFFF; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: middle;
+  transform: translateY(-0.1em);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54); }
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: white; }
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3); }
+
+/*# sourceMappingURL=custom.css.map */

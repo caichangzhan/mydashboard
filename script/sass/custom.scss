@@ -1,0 +1,146 @@
+$graycolor:#FCFDFF;
+$deepcolor:#2A2C44;
+$drakcolor:#35395C;
+$lightcolor:#3D4368;
+$whitecolor:#FFFFFF;
+$iconColor:#0bb8fa;
+$baseWidth:8px;
+
+body{
+  background-color:$graycolor;
+  margin-left: $baseWidth*25;
+  padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+
+}
+#barmodel {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: auto;
+  top:0;
+  left: 0;
+  .iconcolor {
+    i {
+      color: $iconColor;
+    }
+  }
+    .iconmargin {
+      i {
+      margin-right: $baseWidth*2;
+    }
+  }
+}
+
+#navbar{
+  @extend #barmodel;
+  background-color: $graycolor;
+  position: relative;
+  width: 100%;
+  height: $baseWidth*12;
+  i,img {
+    padding:$baseWidth*3 $baseWidth*2;
+    float: right;
+  }
+}
+#slidebar {
+  @extend #barmodel;
+  width: $baseWidth*25;
+  background-color: $drakcolor;
+  height: 100%;
+  span{
+    img {
+      width: $baseWidth*20;
+      padding: $baseWidth*2;
+    }
+  }
+
+  li {
+    a {
+      display: block;
+      color: $whitecolor;
+      margin-left: $baseWidth;
+      padding: $baseWidth $baseWidth*2;
+      text-decoration: none;
+      &.active{
+        background-color: $deepcolor;
+        color: $whitecolor;
+        border-radius: $baseWidth*5 0 0 $baseWidth*5;
+
+      }
+      &:hover {
+        @extend .active;
+        @extend .iconcolor;
+      }
+        @extend .iconmargin;
+    }
+  }
+  .bottom{
+    color: $whitecolor;
+    margin: $baseWidth*3;
+    padding: $baseWidth $baseWidth*2;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    overflow: auto;
+    @extend .iconmargin;
+    &:hover {
+      background-color: $deepcolor;
+      color: $whitecolor;
+      border-radius: $baseWidth*5;
+      @extend .iconcolor;
+    }
+  }
+  h1,h2,h3,h4{
+
+    margin-left: $baseWidth;
+    padding: $baseWidth;
+    color: $whitecolor;
+  }
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: middle;
+  transform: translateY(-.1em);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+
