@@ -1,0 +1,64 @@
+$backgroundcolor:rgba(255,255,255,0.5);
+$baseWidth:8px;
+
+
+body{
+  background: url("../../signin_signup/login/img/background1.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.boxcontainer{
+  width: 100%;
+}
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.loginform{
+  width: $baseWidth*80;
+}
+.loginbox {
+  margin: $baseWidth*15 $baseWidth*20;
+  border-radius: $baseWidth*2;
+  background: $backgroundcolor;
+  padding: $baseWidth*5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.loginimg{
+    padding: $baseWidth;
+    display: block;
+  }
+.logininput {
+  font-size: $baseWidth*3;
+  border-radius: $baseWidth*5;
+  height: $baseWidth*4;
+  padding: $baseWidth $baseWidth*3;
+  margin: $baseWidth $baseWidth;
+  justify-content: center;
+  display: inline-block;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+  .loginbtn{
+    padding: $baseWidth;
+    display: block;
+    width: 100%;
+  }
+
+.boxtitle{
+  display: block;
+  text-align: center;
+  font-size: $baseWidth*4;
+  margin-bottom: $baseWidth*5;
+}
+
+
