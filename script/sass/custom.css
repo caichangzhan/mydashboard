@@ -23,9 +23,16 @@ body {
   position: relative;
   width: 100%;
   height: 96px; }
-  #navbar i, #navbar img {
-    padding: 24px 16px;
-    float: right; }
+  #navbar a {
+    display: block;
+    color: #2A2C44;
+    text-decoration: none; }
+    #navbar a i, #navbar a img {
+      padding: 24px 16px;
+      float: right; }
+      #navbar a i:hover, #navbar a img:hover {
+        background: #0bb8fa;
+        color: #FFFFFF; }
 
 #slidebar {
   width: 200px;

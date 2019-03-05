@@ -40,9 +40,18 @@ body{
   position: relative;
   width: 100%;
   height: $baseWidth*12;
-  i,img {
-    padding:$baseWidth*3 $baseWidth*2;
-    float: right;
+  a {
+    display: block;
+    color: $deepcolor;
+    text-decoration: none;
+    i, img {
+      padding: $baseWidth*3 $baseWidth*2;
+      float: right;
+      &:hover{
+        background: $iconColor;
+        color:$whitecolor;
+      }
+    }
   }
 }
 #slidebar {
