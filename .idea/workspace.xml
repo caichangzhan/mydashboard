@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba09555-fd4c-42cc-9ffb-36b002a096af" name="Default Changelist" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/mainpages/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainpages/result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainpages/submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_slider_bar/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_slider_bar/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/css/materialIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/script/css/materialIcon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/sass/.sass-cache/5c2d8affc212a39d50a6dab0a0a381fc41e42198/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/script/sass/.sass-cache/5c2d8affc212a39d50a6dab0a0a381fc41e42198/custom.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/sass/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/script/sass/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/sass/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/script/sass/custom.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/sass/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/script/sass/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signin_signup/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin_signup/signin.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/sass/custom.scss">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="380">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -45,6 +42,11 @@
     </option>
     <option name="SCHEME" value="Project" />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>darkcolor</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,17 +55,32 @@
       <list>
         <option value="$PROJECT_DIR$/script/sass/cusotm.scss" />
         <option value="$PROJECT_DIR$/script/sass/login.css" />
-        <option value="$PROJECT_DIR$/script/css/materialIcon.css" />
         <option value="$PROJECT_DIR$/script/sass/login.scss" />
         <option value="$PROJECT_DIR$/signin_signup/signin.html" />
+        <option value="$PROJECT_DIR$/script/css/materialIcon.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/sass/custom.scss" />
+        <option value="$PROJECT_DIR$/nav_silder_bar/navbar.html" />
+        <option value="$PROJECT_DIR$/nav_silder_bar/slider.html" />
+        <option value="$PROJECT_DIR$/mainpages/home.html" />
+        <option value="$PROJECT_DIR$/mainpages/submit.html" />
+        <option value="$PROJECT_DIR$/mainpages/result.html" />
+        <option value="$PROJECT_DIR$/mainpages/slider.html" />
+        <option value="$PROJECT_DIR$/mainpages/home.php" />
+        <option value="$PROJECT_DIR$/mainpages/nav_slider_bar/navbar.html" />
+        <option value="$PROJECT_DIR$/mainpages/nav_slider_bar/slider.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/nav_slider_bar/navbar.html" />
+        <option value="$PROJECT_DIR$/nav_slider_bar/slider.html" />
+        <option value="$PROJECT_DIR$/mainpages/submit.php" />
+        <option value="$PROJECT_DIR$/mainpages/result.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
@@ -89,8 +106,12 @@
             <path>
               <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="assert" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mainpages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="nav_slider_bar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -100,32 +121,7 @@
             <path>
               <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sass" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="signin_signup" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="signin_signup" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="login" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="mydashboard" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="signin_signup" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="login" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -147,13 +143,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caich\Documents\GitHub\mydashboard" />
+      <recent name="C:\Users\caich\Documents\GitHub\mydashboard\mainpages\nav_slider_bar" />
       <recent name="D:\mydashboard\script\stylesheets" />
     </key>
   </component>
@@ -193,6 +191,14 @@
       <workItem from="1551688192020" duration="238000" />
       <workItem from="1551688491160" duration="523000" />
       <workItem from="1551689089958" duration="2390000" />
+      <workItem from="1551758714492" duration="50000" />
+      <workItem from="1552014850857" duration="2302000" />
+      <workItem from="1552029288891" duration="4280000" />
+      <workItem from="1552099515545" duration="9000" />
+      <workItem from="1552101692566" duration="2041000" />
+      <workItem from="1552361487197" duration="9291000" />
+      <workItem from="1552444919128" duration="2880000" />
+      <workItem from="1552448593410" duration="11353000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1550634017356</created>
@@ -205,17 +211,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53833000" />
+    <option name="totallyTimeSpent" value="86039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2986871" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3522976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="PHP-CGI Server" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49777284" weight="0.32560706" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49777284" weight="0.3253012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,23 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/sass/custom.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/css/materialIcon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signin_signup/signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/sass/login.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -276,17 +266,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/script/sass/custom.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports-pixel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/php-canvasjs-chart-samples/PHP CanvasJS Chart Samples/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/xampp/htdocs/PHP CanvasJS Chart Samples/index.php" />
+    <entry file="file://C:/xampp/htdocs/CanvasJS/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/css/materialIcon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/CanvasJS/how-to/add-data-points.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/xampp/htdocs/CanvasJS/how-to/live-chart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/sass/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="418">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signin_signup/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainpages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainpages/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainpages/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav_slider_bar/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav_slider_bar/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
